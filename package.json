@@ -1,18 +1,18 @@
 {
-    "name": "slush-trainiac-redux-express",
-    "description": "Redux Expres App",
-    "version": "0.0.0",
-    "homepage": "https://github.com/trainiac/slush-trainiac-redux-express",
+    "name": "slush-redux-express",
+    "description": "A generator for making a redux express application for quick UI and server side development",
+    "version": "0.1.0",
+    "homepage": "https://github.com/trainiac/slush-redux-express",
     "author": {
         "name": "Adrian William Adkison",
         "email": "adkison.adrian@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/trainiac/slush-trainiac-redux-express.git"
+        "url": "git://github.com/trainiac/slush-redux-express.git"
     },
     "bugs": {
-        "url": "https://github.com/trainiac/slush-trainiac-redux-express/issues"
+        "url": "https://github.com/trainiac/slush-redux-express/issues"
     },
     "license": "MIT",
     "main": "slushfile.js",

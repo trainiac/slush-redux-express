@@ -1,14 +1,14 @@
-# Slush Trainiac-redux-express [![Build Status](https://secure.travis-ci.org/trainiac/slush-trainiac-redux-express.png?branch=master)](https://travis-ci.org/trainiac/slush-trainiac-redux-express) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-trainiac-redux-express.png)](http://badges.enytc.com/for/npm/slush-trainiac-redux-express)
+# Slush redux-express
 
-> Redux Expres App
+> A generator for making a redux express application for quick UI and server side development
 
 
 ## Getting Started
 
-Install `slush-trainiac-redux-express` globally:
+Install `slush-redux-express` globally:
 
 ```bash
-$ npm install -g slush-trainiac-redux-express
+$ npm install -g slush-redux-express
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-trainiac-redux-express
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-trainiac-redux-express
+$ mkdir my-slush-redux-express
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-trainiac-redux-express && slush trainiac-redux-express
+$ cd my-slush-redux-express && slush redux-express
 ```
 
 ## Getting To Know Slush
@@ -35,12 +35,12 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/trainiac/slush-trainiac-redux-express/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/trainiac/slush-redux-express/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/trainiac/slush-trainiac-redux-express/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/trainiac/slush-redux-express/issues).
 
-## License 
+## License
 
 The MIT License
 
