@@ -2,6 +2,7 @@ import HttpStatus from 'http-status-codes'
 
 
 export default function(app) {
+
   const isDevelopment = app.get('env') === 'development'
 
 
@@ -20,6 +21,7 @@ export default function(app) {
 * the function will return the next middleware to be used.
 */
   return (error, request, response, next) => {
+
     const status = error.status || HttpStatus.INTERNAL_SERVER_ERROR
     const errorData = {
       message: error.message,
@@ -32,5 +34,7 @@ export default function(app) {
     console.log(error.stack)
     response.status(status)
     response.json(errorData)
+
   }
+
 }

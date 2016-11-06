@@ -10,5 +10,7 @@ import JSONErrorHandler from './error/jsonValidation'
  * @returns {Array} A list of all of the application error handler middleware.
  */
 export default function(app) {
+
   return [fourOhFourHandler, JSONErrorHandler, generalErrorHandler(app)]
+
 }

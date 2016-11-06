@@ -15,7 +15,9 @@ import HttpStatus from 'http-status-codes'
  * the function will return the next middleware to be used.
  */
 export default function(error, request, response, next) {
+
   if (error.name === 'JsonSchemaValidation') {
+
     console.log(error.stack)
 
     response.status(HttpStatus.BAD_REQUEST)
@@ -28,7 +30,9 @@ export default function(error, request, response, next) {
     }
 
     response.json(responseData)
+
   }
 
   return next(error)
+
 }

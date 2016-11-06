@@ -1,16 +1,14 @@
-import { connect } from 'react-redux'
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router'
 
-class CheckoutPage extends Component {
+export default function ObjectPage() {
 
-  render() {
-    return (
-      <div>
-          <Link to="/objects/" activeClassName="active">Objectfadfas</Link>
-      </div>
-    )
-  }
+  return (
+    <div>
+      <Link to='/objects/' activeClassName='active'>
+        Go to objects page
+      </Link>
+    </div>
+  )
+
 }
-
-export default connect()(CheckoutPage)

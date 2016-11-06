@@ -1,26 +1,11 @@
-import React, { Component /* , PropTypes */ } from 'react'
+import React from 'react'
 
-export default class ObjectComponent extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {}
-    this.handleClick = this.handleGoClick.bind(this)
-  }
+export default function ObjectComponent() {
 
-  handleGoClick() {
-    console.log('clicked')  // eslint-disable-line
-  }
+  return (
+    <div>
+      Object Component
+    </div>
+  )
 
-  render() {
-    return (
-      <div>
-        Go!fadfadsfa
-      </div>
-    )
-  }
 }
-
-// ObjectComponent.propTypes = {
-//   value: PropTypes.string.isRequired,
-//   onChange: PropTypes.func.isRequired
-// }

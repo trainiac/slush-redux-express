@@ -7,7 +7,9 @@ const objectRoutes = express.Router({
 })
 
 objectRoutes.get('/action/', (request, response) => {
+
   response.json({})
+
 })
 
 export default objectRoutes
