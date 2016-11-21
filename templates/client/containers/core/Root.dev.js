@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import { Provider } from 'react-redux'
 import Routes from './Routes'
-import DevTools from '../components/DevTools'
+import DevTools from './DevTools'
 
 export default function Root(props) {
 

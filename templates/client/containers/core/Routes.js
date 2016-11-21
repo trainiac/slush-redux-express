@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
 import { Router, Route, IndexRoute } from 'react-router'
-import Wrapper from './Wrapper'
-import ObjectPage from './ObjectPage'
-import ObjectsPage from './ObjectsPage'
-import HomePage from './HomePage'
+import Wrapper from '../Wrapper'
+import ObjectPage from '../ObjectPage'
+import ObjectsPage from '../ObjectsPage'
+import HomePage from '../HomePage'
 
 export default function Routes(props) {
 

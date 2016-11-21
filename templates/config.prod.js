@@ -1,6 +1,4 @@
-/* eslint-disable no-var */
-
-var config = require('./config.js')
+const config = require('./config.js')
 
 config.serveStaticPath = config.buildPath
 module.exports = config

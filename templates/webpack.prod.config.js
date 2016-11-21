@@ -1,14 +1,4 @@
-/* eslint-disable no-var */
+const prodConfig = require('webpack-config-trainiac/prod')
+const baseConfig = require('./webpack.config.js')
 
-var webpack = require('webpack')
-var config = require('./webpack.config.js')
-
-config.plugins.push(
-  new webpack.DefinePlugin({
-    'process.env': {
-      NODE_ENV: JSON.stringify('production')
-    }
-  }),
-  new webpack.optimize.UglifyJsPlugin()
-)
-module.exports = config
+module.exports = prodConfig(baseConfig)

@@ -1,6 +1,6 @@
 import { createStore } from 'redux'
-import rootReducer from '../reducers'
-import storeEnhancer from '../enhancers/enhancer'
+import rootReducer from './reducers'
+import storeEnhancer from './enhancers/enhancer'
 
 export default function configureStore() {
 
@@ -8,8 +8,8 @@ export default function configureStore() {
 
   if (module.hot) {
 
-    module.hot.accept('../reducers', () =>
-      store.replaceReducer(require('../reducers').default) // eslint-disable-line global-require
+    module.hot.accept('./reducers', () =>
+      store.replaceReducer(require('./reducers').default) // eslint-disable-line global-require
     )
 
   }

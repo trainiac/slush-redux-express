@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-trainiac/node-babel.js",
+  "rules": {
+    "no-unused-vars": ["warn",  { "argsIgnorePattern": "next" }]
+  }
+}
